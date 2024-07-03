@@ -1,0 +1,56 @@
+.rodape {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cor-branco3);
+    gap: 2em;
+    padding: 5em 0 5em 0;
+}
+
+.rodape__texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.rodape__titulo {
+    color: var(--cor-preto);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.rodape__descricao {
+    color: var(--cor-cinza2);
+    font-size: 20px;
+    font-weight: 400;   
+}
+
+.rodape__botao {
+    color: var(--cor-branco);
+    background-color: var(--cor-vermelho);
+    border-radius: 8px;
+    padding: 12px 20px 12px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.rodape__texto--2 {
+    display: flex;
+    gap: 1em;
+}
+
+.rodape__input {
+    padding: 1em;
+    border: 1px solid var(--cor-branco4);
+    border-radius: 8px;
+    width: 300px;
+    color: var(--cor-branco);
+}
+
+.rodape__creditos {
+    color: var(--cor-cinza3);
+    font-size: 13px;
+    font-weight: 400;
+}

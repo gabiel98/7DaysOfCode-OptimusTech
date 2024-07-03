@@ -1,0 +1,26 @@
+.corpo {
+    text-align: center;
+    padding-top: 7em;
+    
+}
+
+.corpo__span {
+    color: var(--cor-vermelho);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.corpo__titulo {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--cor-preto);
+    margin: 1em 0 1em 0;
+}
+
+.corpo__texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-cinza2);
+    padding: 12px 0 0 0;
+    margin: 0 18em 0 18em;
+}

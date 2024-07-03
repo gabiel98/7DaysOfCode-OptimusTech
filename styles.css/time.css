@@ -1,0 +1,28 @@
+.time {
+    align-items: center;
+    text-align: center;
+    padding: 7em 0 4em 0;
+}
+
+.time__span {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cor-vermelho);
+    background-color: var(--cor-vermelho-degrade);
+    border-radius: 16px;
+    padding: 0.5em;
+}
+
+.time__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-preto);
+    margin: 1em 0 1em 0;
+}
+
+.time__texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-cinza2);
+    padding-bottom: 3em;
+}
